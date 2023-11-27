@@ -1,0 +1,16 @@
+baseURL = 'http://blog.assortedfolk.com/'
+languageCode = 'en-us'
+title = 'Blog | Assorted Folk'
+theme = 'hugo-theme-monochrome'
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+enable_site_search = true # default: false
+
+# [menu]
+# [[menu.navbar]]
+#     name = 'Test Menu'
+#     pageRef = '/posts/test'
+#     weight = 10
